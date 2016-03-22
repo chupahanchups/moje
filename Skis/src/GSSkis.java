@@ -15,6 +15,7 @@ public class GSSkis extends Skis implements Stability{
 	
 	public static void main(String[] args){
 		GSSkis gs = new GSSkis();
+		gs.setType("Giant Slalom Skis");
 		gs.setTurnRadius(20);
 		gs.turn();
 		gs.goFast();

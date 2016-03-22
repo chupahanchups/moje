@@ -14,6 +14,7 @@ public class SLSkis extends Skis {
 	
 	public static void main(String[] args){
 		SLSkis sl = new SLSkis();
+		sl.setType("Slalom Skis");
 		sl.setTurnRadius(12);
 		sl.turn();
 		sl.stop();
