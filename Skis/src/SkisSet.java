@@ -18,7 +18,7 @@ public class SkisSet {
 		if(this.skis.remove(ski))
 			System.out.println(ski + " successfully removed.");
 		else
-			System.out.println(ski + "not found.");
+			System.out.println(ski + " not found.");
 	}
 	
 	public void print(){
