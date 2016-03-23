@@ -1,5 +1,8 @@
 
 public class GSSkis extends Skis implements Stability{
+	public GSSkis(){
+		this.type = "GS Skis";
+	}
 	
 	@Override
 	public void goFast(){

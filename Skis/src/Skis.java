@@ -1,6 +1,6 @@
 
 public class Skis extends AbstractSkis{
-	protected String type;
+	protected String type = "Skis";
 	
 	@Override
 	public void turn(){

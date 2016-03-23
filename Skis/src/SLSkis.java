@@ -1,5 +1,9 @@
 
 public class SLSkis extends Skis {
+	public SLSkis(){
+		this.type = "SL Skis";
+		System.out.println("Creating SL Skis");
+	}
 	
 	@Override
 	public void turn(){
